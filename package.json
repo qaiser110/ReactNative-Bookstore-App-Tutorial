@@ -27,12 +27,16 @@
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
   },
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "expo": "^27.0.1",
     "prop-types": "^15.6.1",
     "react": "16.3.1",
+    "react-dom": "16",
     "react-native": "~0.55.2",
     "react-navigation": "^2.0.1"
   }
