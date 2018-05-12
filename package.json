@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "enzyme-to-json": "^3.3.3",
     "eslint": "^4.9.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -28,7 +29,8 @@
   },
   "jest": {
     "preset": "jest-expo",
-    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js",
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   },
   "dependencies": {
     "enzyme": "^3.3.0",
