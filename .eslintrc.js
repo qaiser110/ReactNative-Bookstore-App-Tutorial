@@ -11,7 +11,7 @@ module.exports = {
       {
         singleQuote: true,
         bracketSpacing: true,
-        trailingComma: 'all',
+        trailingComma: 'es5',
         semi: false,
       },
     ],
@@ -21,6 +21,7 @@ module.exports = {
     'react/jsx-closing-tag-location': 'off',
     'react/no-multi-comp': 'off',
     'no-use-before-define': 'off',
+    'no-param-reassign': 'off',
     'react/jsx-closing-bracket-location': 'off',
     'react/jsx-curly-spacing': 'off',
     'react/jsx-equals-spacing': 'off',

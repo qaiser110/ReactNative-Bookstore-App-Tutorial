@@ -30,12 +30,18 @@
   "jest": {
     "preset": "jest-expo",
     "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js",
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "expo": "^27.0.1",
+    "mobx": "^4.2.1",
+    "mobx-react": "^5.1.2",
+    "mobx-state-tree": "^2.0.5",
     "prop-types": "^15.6.1",
     "react": "16.3.1",
     "react-dom": "16",
