@@ -1,5 +1,5 @@
-import { types as t, flow } from 'mobx-state-tree'
-import api from './api'
+import { types as t, flow, getEnv } from 'mobx-state-tree'
+import bookApi from './api'
 
 let store = null
 
@@ -12,10 +12,15 @@ const Book = t.model('Book', {
   inStock: t.optional(t.boolean, true),
 })
 
-const BookStore = t
+export const BookStore = t
   .model('BookStore', {
     books: t.array(Book),
   })
+  .views(self => ({
+    get api() {
+      return getEnv(self).api
+    },
+  }))
   .actions(self => {
     function updateBooks(books) {
       books.items.forEach(book => {
@@ -32,7 +37,7 @@ const BookStore = t
 
     const loadBooks = flow(function* loadBooks() {
       try {
-        const books = yield api.fetchBooks()
+        const books = yield self.api.fetchBooks()
         updateBooks(books)
       } catch (err) {
         console.error('Failed to load books ', err)
@@ -44,9 +49,9 @@ const BookStore = t
     }
   })
 
-export default () => {
+export default (api = bookApi) => {
   if (store) return store
 
-  store = BookStore.create({ books: [] })
+  store = BookStore.create({ books: [] }, { api })
   return store
 }

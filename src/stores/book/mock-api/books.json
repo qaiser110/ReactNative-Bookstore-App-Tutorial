@@ -1,0 +1,245 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 6382,
+  "items": [
+    {
+      "id": "0_Paklse3XcC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0_Paklse3XcC",
+      "volumeInfo": {
+        "title": "The Waterbug Book",
+        "subtitle": "A Guide to the Freshwater Macroinvertebrates of Temperate Australia",
+        "authors": [
+          "John Gooderham",
+          "Edward Tsyrlin"
+        ],
+        "publisher": "CSIRO PUBLISHING",
+        "publishedDate": "2002",
+        "description": "Freshwater invertebrates identification guide for both professionals and non-professionals.",
+        "pageCount": 232,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0_Paklse3XcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0_Paklse3XcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Waterbug_Book.html?hl=&id=0_Paklse3XcC"
+      }
+    },
+    {
+      "id": "V5N1tW8-T7EC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/V5N1tW8-T7EC",
+      "volumeInfo": {
+        "title": "The Secret Sharer",
+        "subtitle": "Easyread Comfort Edition",
+        "authors": [
+          "Joseph Conrad"
+        ],
+        "publisher": "ReadHowYouWant.com",
+        "publishedDate": "2008-01-14",
+        "description": "This intriguing short story is narrated by a young man who has recently been promoted as a ship captain.",
+        "pageCount": 88,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=V5N1tW8-T7EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=V5N1tW8-T7EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        }
+      }
+    },
+    {
+      "id": "po4Es1kztr8C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/po4Es1kztr8C",
+      "volumeInfo": {
+        "title": "Life on Air",
+        "subtitle": "Memoirs of a Broadcaster",
+        "authors": [
+          "David Attenborough"
+        ],
+        "publisher": "Random House",
+        "publishedDate": "2009",
+        "description": "David Attenborough is one of the most influential and admired figures in English television.",
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=po4Es1kztr8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=po4Es1kztr8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/Life_on_Air.html?hl=&id=po4Es1kztr8C"
+      }
+    },
+    {
+      "id": "FrUYdXKZFZwC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FrUYdXKZFZwC",
+      "volumeInfo": {
+        "title": "The Book",
+        "subtitle": "Playing the Percentages in Baseball",
+        "authors": [
+          "Tom M. Tango",
+          "Mitchel G. Lichtman",
+          "Andrew E. Dolphin"
+        ],
+        "publisher": "Potomac Books, Inc.",
+        "publishedDate": "2007",
+        "description": "Written by three esteemed baseball statisticians, The Bookcontinues where the legendary Bill James’s Baseball Abstractsand Palmer and Thorn’s The Hidden Game of Baseballleft off more than twenty years ago.",
+        "pageCount": 385,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=FrUYdXKZFZwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=FrUYdXKZFZwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Book.html?hl=&id=FrUYdXKZFZwC"
+      }
+    },
+
+    {
+      "id": "bkt6CeNye60C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bkt6CeNye60C",
+      "volumeInfo": {
+        "title": "The Radiance of the King",
+        "authors": [
+          "Laye Camara",
+          "James Kirkup"
+        ],
+        "publisher": "New York Review of Books",
+        "publishedDate": "2001",
+        "description": "At the beginning of this masterpiece of African literature, Clarence, a white man, has been shipwrecked on the coast of Africa.",
+        "pageCount": 279,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bkt6CeNye60C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bkt6CeNye60C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Radiance_of_the_King.html?hl=&id=bkt6CeNye60C"
+      }
+    },
+    {
+      "id": "uaKzAAAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/uaKzAAAAQBAJ",
+      "volumeInfo": {
+        "title": "By The Book",
+        "subtitle": "A reader's guide to life",
+        "authors": [
+          "Ramona Koval"
+        ],
+        "publisher": "Text Publishing",
+        "publishedDate": "2013-10-23",
+        "description": "By the Book is Ramona Koval's love letter to books and writing, a tribute to the stories that have changed and enriched her life Ramona Koval is one of Australia's best-loved broadcasters.",
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=uaKzAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=uaKzAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/By_The_Book.html?hl=&id=uaKzAAAAQBAJ"
+      }
+    },
+    {
+      "id": "94wwDwAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/94wwDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Tartarugas até lá embaixo",
+        "subtitle": "",
+        "authors": [
+          "John Green"
+        ],
+        "publisher": "Editora Intrinseca",
+        "publishedDate": "2017-10-10",
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=94wwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=94wwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-94wwDwAAQBAJ"
+      }
+    },
+    {
+      "id": "dSJQn8egXvUC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dSJQn8egXvUC",
+      "volumeInfo": {
+        "title": "Nudge",
+        "subtitle": "Improving Decisions about Health, Wealth, and Happiness",
+        "authors": [
+          "Richard H. Thaler",
+          "Cass R. Sunstein"
+        ],
+        "publisher": "Yale University Press",
+        "publishedDate": "2008",
+        "description": "Thaler and Sunstein offer a groundbreaking discussion of how to apply the science of choice to nudge people toward decisions that can improve their lives.",
+        "pageCount": 293,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=dSJQn8egXvUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=dSJQn8egXvUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/Nudge.html?hl=&id=dSJQn8egXvUC"
+      }
+    },
+    {
+      "id": "DRoL0NmsrlwC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DRoL0NmsrlwC",
+      "volumeInfo": {
+        "title": "On War",
+        "authors": [
+          "Carl von Clausewitz"
+        ],
+        "publisher": "Princeton University Press",
+        "publishedDate": "1989-06-21",
+        "description": "Intends to understand war, both in its internal dynamics and as an instrument of policy.",
+        "pageCount": 732,
+        "printType": "BOOK",
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DRoL0NmsrlwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DRoL0NmsrlwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://books.google.com/books/about/On_War.html?hl=&id=DRoL0NmsrlwC"
+      }
+    },
+    {
+      "id": "lSMGAAAAQAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lSMGAAAAQAAJ",
+      "volumeInfo": {
+        "title": "Jane Eyre",
+        "authors": [
+          "Charlotte Brontë"
+        ],
+        "publishedDate": "1864",
+        "description": "Bronte’s novel about a shy, quiet governess who becomes a tutor in a great house and falls in love with its lonely and mysterious master.",
+        "pageCount": 480,
+        "categories": [
+          "Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lSMGAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lSMGAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-lSMGAAAAQAAJ"
+      }
+    }
+  ]
+}
