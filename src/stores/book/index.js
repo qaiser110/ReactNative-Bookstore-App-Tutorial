@@ -1,5 +1,5 @@
 import { types as t, flow, getEnv } from 'mobx-state-tree'
-import bookApi from './api'
+import bookApi from './mock-api/api'
 
 let store = null
 
@@ -49,6 +49,7 @@ export const BookStore = t
     }
 
     const loadBooks = flow(function* loadBooks() {
+      if (self.books.length > 0) return
       try {
         const books = yield self.api.fetchBooks()
         updateBooks(books)
