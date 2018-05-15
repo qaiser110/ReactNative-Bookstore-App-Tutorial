@@ -1,9 +1,11 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { ListItem } from 'react-native-elements'
 import { observer } from 'mobx-react'
 
 export default observer(({ book }) => (
-  <Text>
-    {book.title} by {book.authors[0]}
-  </Text>
+  <ListItem
+    avatar={{ uri: book.image }}
+    title={book.title}
+    subtitle={`by ${book.authors.join(', ')}`}
+  />
 ))
