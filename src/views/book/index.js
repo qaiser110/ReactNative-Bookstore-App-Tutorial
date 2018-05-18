@@ -1,10 +1,14 @@
-import { createBottomTabNavigator } from 'react-navigation'
+import {
+  createBottomTabNavigator,
+  createStackNavigator,
+} from 'react-navigation'
 import { observer } from 'mobx-react'
 
 import BkStore from '../../stores/book'
 import BookListView from './components/BookListView'
+import BookDetailView from './components/BookDetailView'
 
-export default observer(
+const BookListTabs = observer(
   createBottomTabNavigator(
     {
       All: BookListView,
@@ -22,3 +26,8 @@ export default observer(
     }
   )
 )
+
+export default createStackNavigator({
+  BookList: BookListTabs,
+  BookDetail: BookDetailView,
+})

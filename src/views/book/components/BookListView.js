@@ -14,10 +14,19 @@ class BookListView extends Component {
 
   render() {
     const { routeName } = this.props.navigation.state
+
+    const showBookDetail = book => {
+      this.store.selectBook(book)
+      this.props.navigation.navigate('BookDetail')
+    }
+
     return (
       <View>
         <Title text={`${routeName} Books`} />
-        <BookList books={this.store.sortedBooks} />
+        <BookList
+          books={this.store.sortedBooks}
+          showBookDetail={showBookDetail}
+        />
       </View>
     )
   }

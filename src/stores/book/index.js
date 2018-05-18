@@ -18,6 +18,7 @@ const sortFn = (a, b) => (a.title > b.title ? 1 : a.title === b.title ? 0 : -1)
 export const BookStore = t
   .model('BookStore', {
     books: t.array(Book),
+    selectedBook: t.maybe(t.reference(Book)),
     filter: t.optional(
       t.enumeration('FilterEnum', ['All', 'Fiction', 'Nonfiction']),
       'All'
@@ -43,7 +44,7 @@ export const BookStore = t
           pageCount: book.volumeInfo.pageCount,
           authors: book.volumeInfo.authors,
           publisher: book.volumeInfo.publisher,
-          image: book.volumeInfo.imageLinks.smallThumbnail,
+          image: book.volumeInfo.imageLinks.thumbnail,
         })
       })
     }
@@ -62,9 +63,14 @@ export const BookStore = t
       self.filter = genre
     }
 
+    const selectBook = book => {
+      self.selectedBook = book
+    }
+
     return {
       loadBooks,
       setGenre,
+      selectBook,
     }
   })
 
