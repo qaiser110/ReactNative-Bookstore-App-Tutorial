@@ -23,6 +23,12 @@ const BookListTabs = observer(
           store.setGenre(routeName)
         },
       }),
+      tabBarOptions: {
+        labelStyle: {
+          fontSize: 16,
+          padding: 10,
+        },
+      },
     }
   )
 )
